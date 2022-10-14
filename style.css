@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200;500&display=swap');
+:root {
+  --body-color: #f7f6e7;
+  --text-color: #314E52;
+  --shades: #E7E6E1;
+  --orange: #F2A154;
+}
+
+.contacts,
+.education-list,
+.nav {
+  display: flex;
+}
+
+main,
+.education-list li,
+.languages li:first-child img {
+  box-sizing: border-box;
+}
+
+.education-list img:hover,
+footer img:hover {
+  transform: scale(1.5);
+  transition: transform .3s ease-out 0.5s;
+}
+
+.nav,
+.contacts {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+body {
+  text-align: center;
+  background-color: var(--body-color);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  margin: 0;
+}
+
+body,
+a {
+  color: var(--text-color);
+}
+
+.nav {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+main {
+  padding: 0 10%;
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  width: 50px;
+  height: 6px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 40px;
+  background: var(--orange);
+}
+
+.contacts li {
+  margin: 0 10px;
+}
+
+#experience a {
+  font-weight: 500;
+}
+
+.education-list {
+  align-items: center;
+}
+
+.education-list li {
+  padding: 10px 15px;
+}
+
+.education-list img {
+  width: 100%;
+  margin-top: 15px;
+}
+
+pre {
+  border-radius: 5px;
+  background: var(--shades);
+  overflow-x: scroll;
+  text-align: left;
+}
+
+.languages li {
+  margin: 15px 0;
+}
+
+.languages li:first-child {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.languages li:first-child img {
+  width: 20%;
+  margin-left: 40%;
+}
+
+footer {
+   background: var(--shades);
+   padding: 30px 0 15px;
+}
+
+footer li {
+  margin: 15px 0;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer-hr {
+  width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  .education-list {
+    flex-direction: column;
+  }
+}
