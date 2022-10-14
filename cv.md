@@ -64,4 +64,3 @@ Websites: http://sashasatelier.ca/
 - English - advanced (according to the online test at  www.efset.org)
 - Ukrainian - native
 - Russian - native
-
