@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="shortcut icon" href="https://rs.school/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Iryna Designa CV</title>
+
+    <script src="https://kit.fontawesome.com/1df12792e0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Iryna Shvaika</h1>
+      <ul class="contacts">
+        <li><a href="#" aria-label="telegram"><i class="fa-brands fa-telegram"></i> IrynaDesigna</a></li>
+        <li><a href="mailto:mymail@gmail.com" aria-label="email"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/iryna-shvaika-13038a143/?midToken=AQFpesgWPwAZ7w&midSig=0PjZI6uPN8L9M1&trk=eml-email_pymk_02-header-79-profile&trkEmail=eml-email_pymk_02-header-79-profile-null-9n7xh0%7Ekpkhqdjd%7E7j-null-neptune%2Fprofile%7Evanity%2Eview" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://www.behance.net/irynashv" aria-label="behance"><i class="fa-brands fa-square-behance"></i></a></li>
+      </ul>
+      <hr>
+      <nav>
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code-example">Code example</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#language">Language</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="about">
+        <h2>Briefly About Myself</h2>
+        <p>Several years ago I moved to Canada and had to start working in the production area. However, before moving, I used to learn front-end development in Ukraine and I remember that I really liked that. My main goal is changing my career and finding something more profitable, interesting and creative than I am doing now. Furthermore, I like the possibility of finding remote work in this area in the future. I am ambitious and a challenge acceptable that I believe will help me to learn and gain new skills very fast and become a proficient Front-End Developer.</p>
+      </div>
+      <div id="skills" class="skills">
+        <h2>SKILLS</h2>
+        <ul>
+          <li class="skill">HTML5</li>
+          <li class="skill">CSS3</li>
+          <li class="skill">JavaScript</li>
+          <li class="skill">Basics Git</li>
+          <li class="skill">GitHub</li>
+          <li class="skill">Adobe Photoshop</li>
+          <li class="skill">Adobe Illustrator</li>
+          <li class="skill">Corel Draw</li>
+        </ul>
+      </div>
+      <div id="code-example">
+        <h2>Code Example</h2>
+        <p>I have done challenges through the FrontEnd Mentor This is part of my code to create calculator. Here you can see the full solution calculator_app</p>
+        <pre>
+          <code>
+            document.getElementById('result').onclick = function () {getResult()};
+            function getResult() {
+              if (equation === result.toString()) {
+                cleanUp();
+              } else if (equation.match(new RegExp(/\+/g)) ) {
+                  result = parseFloat(firstNum) + parseFloat(shownNum);
+              showResult();
+                } else if (equation.match(new RegExp(/\-/g))) {
+                  result = parseFloat(firstNum) - parseFloat(shownNum);
+                  showResult();
+                } else if (equation.match(new RegExp(/\*/g))) {
+                  result = parseFloat(firstNum) * parseFloat(shownNum);
+                  showResult();
+                } else if (equation.match(new RegExp(/\%/g))) {
+                  result = parseFloat(firstNum) / parseFloat(shownNum);
+                  showResult();
+                }
+                return result
+            }
+          </code>
+        </pre>
+      </div>
+      <div id="experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>Frontend Mentor - <a target="_blank" href="https://irynadesigna.github.io/3-column-preview-card-component/">3-column preview card component solution</a></li>
+          <li>Frontend Mentor - <a target="_blank" href="https://irynadesigna.github.io/Pricing-component-with-toggle/">Pricing component with toggle</a></li>
+          <li>Frontend Mentor - <a target="_blank" href="https://irynadesigna.github.io/launch-countdown-timer-main/">Launch countdown timer main</a></li>
+          <li>Frontend Mentor - <a target="_blank" href="https://irynadesigna.github.io/calculator_app/">Calculator app solution</a></li>
+        </ul>
+      </div>
+      <div id="education">
+        <h2>Education</h2>
+        <ul class="education-list">
+          <li><span>Frontend Development</span><img src="img/frontend.jpg" alt="Front End Certificate"></li>
+          <li><span>Web Design Basics</span><img src="img/webdesign.jpg" alt="Web Design Certificate"></li>
+          <li><span>Interior Design</span><img src="img/interior-design.jpg" alt="Interior Design Certificate"></li>
+        </ul>
+      </div>
+      <div id="language">
+        <h2>Language</h2>
+        <ul class="languages">
+          <li><span><b>English</b> - advanced (according to the online test at www.efset.org)</span><img src="img/efset.png" alt="www.efset.org tests result"></li>
+          <li><b>Ukrainian</b> - native</li>
+          <li><b>Russian</b> - native</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/IrynaDesigna" target="_blank"><i class="fa-brands fa-github"></i> Iryna Designa</a></li>
+        <li><a href="https://app.rs.school/" target="_blank"><img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS School Logo"></a></li>
+        <li>October 2022</li>
+      </ul>
+      <hr class="footer-hr">
+      <ul class="contacts">
+        <li><a href="#" aria-label="telegram"><i class="fa-brands fa-telegram"></i> IrynaDesigna</a></li>
+        <li><a href="mailto:mymail@gmail.com" aria-label="email"><i class="fa-solid fa-envelope"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/iryna-shvaika-13038a143/?midToken=AQFpesgWPwAZ7w&midSig=0PjZI6uPN8L9M1&trk=eml-email_pymk_02-header-79-profile&trkEmail=eml-email_pymk_02-header-79-profile-null-9n7xh0%7Ekpkhqdjd%7E7j-null-neptune%2Fprofile%7Evanity%2Eview" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a target="_blank" href="https://www.behance.net/irynashv" aria-label="behance"><i class="fa-brands fa-square-behance"></i></a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
