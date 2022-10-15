@@ -30,6 +30,11 @@ footer img:hover {
   flex-wrap: wrap;
 }
 
+.nav,
+#experience a,
+#code-example a {
+  font-weight: 500;
+}
 
 body {
   text-align: center;
@@ -46,7 +51,6 @@ a {
 }
 
 .nav {
-  font-weight: 500;
   text-transform: uppercase;
   margin-top: 0;
 }
@@ -93,10 +97,6 @@ h2::after {
 
 .contacts li {
   margin: 0 10px;
-}
-
-#experience a {
-  font-weight: 500;
 }
 
 .education-list {
@@ -154,5 +154,9 @@ footer img {
 @media only screen and (max-width: 800px) {
   .education-list {
     flex-direction: column;
+  }
+
+  pre {
+    font-size: .6em;
   }
 }
